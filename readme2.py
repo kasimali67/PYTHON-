@@ -1,1 +1,2 @@
-#readmeee 
+str= len("ali")
+print(str)
