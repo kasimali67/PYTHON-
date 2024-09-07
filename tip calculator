@@ -1,0 +1,8 @@
+bill=float(input("what is your bill?"))
+tip=float(input("what is your tip?,10% ,15% , 20%"))
+people=int(input("how many people"))
+total_tip=tip/100
+total_bill=bill*total_tip
+total1_bill=bill+total_bill
+each_people=total1_bill/people
+print(f"each person would pay:{each_people}")
